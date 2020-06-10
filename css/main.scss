@@ -62,7 +62,8 @@ nav {
 }
 //show menu animations
 .show-menu {
-  display: block;
+  display: flex;
+  flex-wrap: wrap;
   animation: slide-menu-left 1s ease-in forwards;
 
   .close-btn {
