@@ -31,8 +31,9 @@ nav ul {
   list-style-type: none;
   margin: 10% auto 0 auto;
   padding: 0;
-  display: grid;
-  grid-template-columns: repeat(4, 25%);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
   width: 80%;
 }
 
@@ -51,11 +52,11 @@ nav ul span {
 
 nav ul li {
   opacity: 0;
+  margin: 40px auto;
 }
 
 .show-menu {
-  display: flex;
-  flex-wrap: wrap;
+  display: block;
   animation: slide-menu-left 1s ease-in forwards;
 }
 

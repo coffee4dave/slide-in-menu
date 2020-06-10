@@ -37,8 +37,11 @@ nav {
       list-style-type: none;
       margin: 10% auto 0 auto;
       padding: 0;
-      display: grid; // used for the layout of the li's
-      grid-template-columns: repeat(4, 25%);
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      // display: grid; // used for the layout of the li's
+      // grid-template-columns: repeat(4, 25%);
       width: 80%;
 
       a{
@@ -56,14 +59,14 @@ nav {
 
       li {
         opacity: 0; // by default they're hidden
+        margin: 40px auto;
       }
 
     }
 }
 //show menu animations
 .show-menu {
-  display: flex;
-  flex-wrap: wrap;
+  display: block;
   animation: slide-menu-left 1s ease-in forwards;
 
   .close-btn {
