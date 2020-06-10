@@ -52,7 +52,7 @@ nav ul span {
 
 nav ul li {
   opacity: 0;
-  margin: 40px auto;
+  margin-bottom: 40px;
 }
 
 .show-menu {
