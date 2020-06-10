@@ -47,12 +47,14 @@ nav ul span {
   color: gray;
   display: block;
   font-size: 0.75em;
-  margin-top: 20px;
+  margin-top: 1em;
 }
 
 nav ul li {
   opacity: 0;
-  margin-bottom: 40px;
+  margin-bottom: 2em;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
 .show-menu {

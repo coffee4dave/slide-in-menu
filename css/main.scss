@@ -54,12 +54,14 @@ nav {
         color: gray;
         display: block;
         font-size: 0.75em;
-        margin-top: 20px;
+        margin-top: 1em;
       }
 
       li {
         opacity: 0; // by default they're hidden
-        margin-bottom: 40px;
+        margin-bottom: 2em;
+        margin-left: 2%;
+        margin-right: 2%;
       }
 
     }
